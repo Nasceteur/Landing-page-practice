@@ -1,0 +1,250 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  flex: 1;
+}
+
+/* ======= Colors and Background======= */
+.header,
+.footer{
+  background-color: #1f2937;
+}
+
+.review-container{
+  background-color: #e5e7eb;
+}
+
+.button,
+.sing-up-container,
+.sing-up-button{
+  background-color: #3882f6;
+}
+
+.header,
+.image-holder,
+.sing-up-box,
+.footer{
+  color: #f9faf8;
+}
+
+.list-links,
+.header-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.information-container{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 10px 0;
+}
+
+.subtext,
+.review-text{
+  font-weight: 300px;
+  color: #1f2937;
+}
+
+.sing-up-title{
+  font-weight: 900;
+}
+
+.review-text{
+  font-size: 36px;
+}
+
+.header-logo{
+  font-size: 24px;
+}
+
+.list-links{
+  list-style: none;
+}
+
+.header-title{
+  font-size: 48px;
+  font-weight: 900;
+}
+
+
+button{
+  width: 100px;
+  padding: 8px;
+  border-radius: 12px;
+  color: #f9faf8;
+}
+
+
+.information-boxes{
+  border: 3px solid rgb(44, 44, 255);
+  border-radius: 10px;
+}
+
+.button{
+  font-weight: 700;
+}
+/* ======================= */
+
+/* Header flexbox */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.header-box{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 500px;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.list-links{
+  display: flex;
+  gap: 20px;
+}
+
+/* Header content flexbox */
+
+.header-content-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0px;
+}
+
+.header-content{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 16px;
+}
+
+.image-holder{
+  display: flex;
+  height: 250px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff6;
+
+}
+
+.header-text{
+  font-size: 18px;
+}
+
+/* Information flexbox */
+
+.main-content-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  height: 350px;
+  gap: 16px;
+}
+
+
+.boxes-container{
+  display: flex;
+  gap: 40px;
+}
+
+.information-boxes{
+  width: 100px;
+  height: 100px;  
+}
+
+.subtext-box{
+  display: flex;
+  gap: 40px;
+}
+
+.subtext{
+  width: 100px;
+  height: 100px;
+}
+
+/* Review box flexbox */
+
+.review-container{
+  display: flex;
+  width: 100vw;
+}
+
+.review-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 1000px;
+  height: 400px;
+  padding: 60px 0;
+}
+
+.review{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 600px;
+}
+
+.user-box{
+  display: flex;
+  width: 500px;
+  justify-content: flex-end;
+}
+
+/* Sing-up flex */
+ 
+.sing-up-container{
+  display: flex;
+  width: 700px;
+  padding: 40px;
+  margin: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sing-up-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+/* Footer flex */
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100vw;
+}
